@@ -388,4 +388,6 @@ simulate_all_models <- function(isample, N, Clstr, all_pred) {
  # Zum Laden später:
  load("result_all.RData")
  
+ # für Git
+ 
  
