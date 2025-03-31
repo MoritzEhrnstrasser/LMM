@@ -16,13 +16,6 @@ library(sloop)
  
  plan(multisession, workers = 9)
  
- library(lme4)
- library(Matrix)
- library(tmvtnorm)
- library(lmerTest)
- library(lmtest)
- library(broom.mixed)
- library(future.apply)
  
  simulate_all_models <- function(isample, N, Clstr, all_pred) {
    
